@@ -7,7 +7,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  return array.map{|el| }  
+  return array.map{|el| 
+    "#{el.}!"
+  }  
 end
 
 def long_planeteer_calls# code an argument here
