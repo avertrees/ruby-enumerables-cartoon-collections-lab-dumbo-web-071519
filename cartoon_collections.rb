@@ -20,8 +20,12 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  bool
   array.map{
-    |item| cheese_types.include?{item}
+    |item| bool = cheese_types.include?(item)
   }
-   array.include?{|word| }
+  if bool
+    return bool
+  else
+    return nil
 end
