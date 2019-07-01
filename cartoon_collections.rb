@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  b = false
+
   b = array.map{
     |item| cheese_types.include?(item)
   }
