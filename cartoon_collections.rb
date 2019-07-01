@@ -8,7 +8,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   return array.map{|el| 
-    "#{el[0].upcase}!"
+    "#{el.upcase}!"
   }  
 end
 
