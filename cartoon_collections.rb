@@ -20,12 +20,12 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  bool
+  b = false
   array.map{
-    |item| bool = cheese_types.include?(item)
+    |item| b = cheese_types.include?(item)
   }
-  if bool
-    return bool
+  if b
+    return b
   else
     return nil
 end
